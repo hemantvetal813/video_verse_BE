@@ -1,0 +1,16 @@
+{
+  "name": "videoconn",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./app --watch",
+    "start1": "node ./app"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
